@@ -1,3 +1,5 @@
+import re
+
 class Solution(object):
     def mostCommonWord(self, paragraph, banned):
         paragraph = paragraph.lower()
