@@ -1,11 +1,11 @@
 class Solution(object):
     def sumZero(self, n):
-        out = []
+        result = []
 
         for i in range(1, n / 2 + 1):
-            out.append(i)
-            out.append(-i)
+            result.append(i)
+            result.append(-i)
                 
         if n % 2 == 1:
-            out.append(0)
-        return out
+            result.append(0)
+        return result
